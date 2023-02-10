@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 
-class Server {
-  private app: Application;
+class ExpressServer {
+  public app: Application;
   private port: string;
 
   constructor() {
@@ -16,4 +16,4 @@ class Server {
   }
 }
 
-export default Server;
+export default ExpressServer;

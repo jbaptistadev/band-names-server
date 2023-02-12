@@ -22,8 +22,6 @@ bands.addBand('Bllie Eilish');
 bands.addBand('Lisa');
 bands.addBand('Yaosobi');
 
-console.log('bands', bands);
-
 io.on('connection', (client) => {
   console.log('Active client');
 
